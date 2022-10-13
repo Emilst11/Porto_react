@@ -1,0 +1,37 @@
+.sidenav{
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    &-item{
+        display: flex;
+        align-items: stretch;
+        gap: 1rem;
+        margin: 1.3rem;
+        &.active{
+            p{
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                display: block;
+            }
+            .status{
+                width: 5px;
+                background-color: #fff;
+                border-radius: 10px;
+                height: auto;
+            }
+        }
+        p{
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            display: none;
+        }
+        .status{
+            width: 5px;
+            height: 20px;
+            background-color: #4A4A4A;
+            border-radius: 10px;
+        }
+    }
+}
