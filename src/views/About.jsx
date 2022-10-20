@@ -7,7 +7,7 @@ import '../styles/About.scss'
 
 const About = () => {
     return(
-        <div className="about">
+        <div className="about" id="about">
             <div className="banners">About Me</div>
             <div className="about-container">
                 <div className="svg">

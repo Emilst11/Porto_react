@@ -1,0 +1,89 @@
+.contact{
+    width: 100%;
+    min-height: 80vh;
+    padding: 100px 0;
+    background: url('../assets/background_contact.png') no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &-container{
+        max-width: 1440px;
+        width: calc(1440px / 1.5);
+        padding: 50px 20px;
+        margin: auto;
+        background: rgba(93, 92, 91, 0.1);
+        backdrop-filter: blur(2rem);
+        border-radius: 20px;
+        display: grid;
+        align-items: flex-start;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        .contact-item{
+            h1{
+                margin: 0;
+                font-family: Roboto Condensed;
+            }
+            p{
+                font-size: 1.3rem;
+            }
+            .socmed-item{
+                display: flex;
+                gap: 1rem;
+                font-size: 1.1rem;
+                font-weight: 300;
+                margin-bottom: 1rem;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+            .navs{
+                text-decoration: none;
+                color: #fff;
+                font-size: 1.3rem;
+                font-weight: 700;
+                display: block;
+                height: 30px;
+                margin-bottom: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0);
+                transition: .3s;
+                &:hover{
+                    border-bottom: 1px solid #fff;
+                }
+            }
+            h2{
+                font-size: 1.5rem;
+                margin: 0 0 1rem;
+                font-weight: 400;
+                font-family: Roboto Condensed;
+            }
+            button{
+                background: none;
+                color: #fff;
+                padding: 1rem 20px;
+                font-size: 1.3rem;
+                font-weight: 600;
+                border: 1px solid #fff;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    background-color: #C5B99C;
+                    color: #252525;
+                    border: 1px solid #252525;
+                    box-shadow: 5px 8px 25px rgba(0, 0, 0, 0.4);
+                }
+            }
+        }
+    }
+    .presenting{
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        p{
+            font-size: 1.3rem;
+        }
+    }
+}

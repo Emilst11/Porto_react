@@ -1,0 +1,79 @@
+.container{
+    min-height: 100vh;
+    background: url('../assets/bg-testi.png') no-repeat;
+    background-position: 0% 100%;
+    background-size: 300px;
+    display: flex;
+    align-items: center;
+    .testimonial{
+        max-width: 1440px;
+        margin: auto;
+        &-intro{
+            max-width: calc(1440px / 3);
+            margin: auto;
+            text-align: center;
+            h1{
+                font-size: 3rem;
+                font-family: Roboto Condensed;
+                font-weight: 700;
+                position: relative;
+                margin-bottom: 40px;
+                &::after{
+                    content: ' ';
+                    position: absolute;
+                    width: 20%;
+                    height: 5px;
+                    left: 30%;
+                    transform: translateX(0%);
+                    bottom: -40%;
+                    background-color: #fff;
+                    border-radius: 10px;
+                }
+            }
+            p{
+                font-size: 1.1rem;
+                font-weight: 300;
+            }
+        }
+        &-card{
+            width: 100%;
+            border-radius: 10px;
+            margin: 50px auto;
+            display: flex;
+            gap: 2rem;
+            &-item{
+                width: 400px;
+                background-color: #252525;
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, .2);
+                padding: 0 50px;
+                &::before{
+                    position: relative;
+                    content: '"';
+                    font-size: 5rem;
+                    top: 20%;
+                    right: 5%;
+                    line-height: 0;
+                    color: #5D5C5B;
+                }
+                &::after{
+                    position: relative;
+                    content: '"';
+                    font-size: 5rem;
+                    left: 100%;
+                    line-height: 0;
+                    color: #5D5C5B;
+                }
+                h2{
+                    font-size: 1.7rem;
+                    font-family: Roboto Condensed;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 1.1rem;
+                    font-family: Roboto Condensed;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

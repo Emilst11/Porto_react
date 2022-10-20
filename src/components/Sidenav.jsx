@@ -1,36 +1,37 @@
 import React from "react";
+import { Link } from 'react-scroll'
 import '../styles/Sidenav.scss'
 
 const Sidenav = () => {
     const navContent = [
         {
             title: 'Home',
-            link: '/'
+            link: 'home'
         },
         {
             title: 'About',
-            link: '/'
+            link: 'about'
         },
         {
             title: 'My Work',
-            link: '/'
+            link: 'work'
         },
         {
             title: 'Testimonial',
-            link: '/'
+            link: 'testi'
         },
         {
             title: 'Contact',
-            link: '/'
+            link: 'contact'
         }
     ]
     return(
         <div className="sidenav">
             {navContent.map((item, index) => 
-                <div key={index} className="sidenav-item active">
+                <Link key={index} className="sidenav-item" activeClass="active" smooth spy to={item.link}>
                     <p>{item.title}</p>
                     <div className="status"></div>
-                </div>
+                </Link>
             )}
         </div>
     )

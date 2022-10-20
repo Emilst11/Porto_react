@@ -5,29 +5,29 @@ const Navbar = () => {
     const navContent = [
         {
             title: 'Home',
-            link: '/'
+            link: 'home'
         },
         {
             title: 'About',
-            link: '/'
+            link: 'about'
         },
         {
             title: 'My Work',
-            link: '/'
+            link: 'work'
         },
         {
             title: 'Testimonial',
-            link: '/'
+            link: 'testi'
         },
         {
             title: 'Contact',
-            link: '/'
+            link: 'contact'
         }
     ]
     return(
         <div className="navbar-container">
             {navContent.map((item, index) => 
-                <div key={index}>{item.title}</div>
+                <a href={`#${item.link}`} key={index}>{item.title}</a>
             )}
         </div>
     )

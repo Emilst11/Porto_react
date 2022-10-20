@@ -8,7 +8,7 @@ import '../styles/Home.scss'
 const Home = () => {
     return(
         <div>
-            <div className="home">
+            <div className="home" id="home">
                 <Navbar/>
                 <div className="tags">
                     <img src={profile} alt="profile" />
