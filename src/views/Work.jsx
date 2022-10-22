@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaChevronRight, FaChevronLeft} from 'react-icons/fa'
 import porto1 from '../assets/porto1.png'
 import porto2 from '../assets/porto2.png'
@@ -32,17 +32,25 @@ const Work = () => {
     ]
 
     const nextBtn = () => {
-        setNums(nums + 1);
+        setNums(nums => nums + 1)
         if(nums === collection.length-1){
             setNums(0)
         }
     }
     const prevBtn = () => {
-        setNums(nums - 1)
+        setNums(nums => nums - 1)
         if(nums === 0){
             setNums(collection.length - 1)
         }
     }
+    useEffect(() => {
+        setTimeout(() => {
+            setNums(nums => nums + 1)
+            if(nums === collection.length-1){
+                setNums(0)
+            }
+        }, 3000)
+    })
     return(
         <div className="work" id="work">
             <div className="empty"></div>
@@ -62,7 +70,7 @@ const Work = () => {
                         <img src={collection[nums].images} alt="" />
                         <div className="build">
                             <h1>Build with</h1>
-                            <div className="build-icon">{collection[nums].tech}</div>
+                            <p>{collection[nums].tech}</p>
                         </div>
                         <div className="details">
                             <h1>Details</h1>

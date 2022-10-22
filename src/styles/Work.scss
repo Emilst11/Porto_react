@@ -27,7 +27,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 1440px;
+            max-width: 1440px;
             margin: auto;
             gap: 1rem;
             button{
@@ -110,6 +110,42 @@
                     filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.25)) brightness(80%);
                 }
             }
+            @media screen and (max-width : 600px){
+                &{
+                    button{
+                        display: none;
+                    }
+                    .posters{
+                        flex-wrap: wrap;
+                        .title, .build, .details{
+                            position: static;
+                            width: 100%;
+                            h1{
+                                border: none;
+                                padding: 10px 20px;
+                                margin: 0 0 1rem;
+                            }
+                            p{
+                                padding: 10px 20px;
+                                margin: 0;
+                            }
+                            &::before{
+                                display: none;
+                            }
+                        }
+                        img{
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width : 600px){
+            .banners{
+                left: -20%;
+                font-size: 5rem;
+                transform: translateY(-50%);
+            }
         }
     }
     .svg{
@@ -117,5 +153,11 @@
         bottom: 0;
         transform: translateY(30%);
         text-align: center;
+    }
+    @media screen and (max-width : 600px){
+        &{
+            background-size: 100%;
+            padding: 0;
+        }
     }
 }

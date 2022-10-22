@@ -10,6 +10,14 @@ const Testimonial = () => {
         {
             name: 'Muhammad Rafly Syahputra',
             text: 'Emil adalah teman satu team saya, dia berada pada bagian front end dan saya adalah backend, selama bekerja bersama emil, emil selalu membuat saya terkagun dengan design yang di tawarkan, dia juga adalah pribadi yang riang sehingga menjadi power up untuk team saat team sedang tidak baik baik saja.'
+        },
+        {
+            name: 'Cendekia Luthfieta Nazalia',
+            text: 'Pertama terlibat project bareng di internship BPKP. Dia sosok yang easy going, passionate, also always gets things done. Khususnya untuk detail dari apa yang dia kerjakan karena dia orang yang selalu conerned sama experience user.'
+        },
+        {
+            name: 'Muhammad Rafly Syahputra',
+            text: 'Emil adalah teman satu team saya, dia berada pada bagian front end dan saya adalah backend, selama bekerja bersama emil, emil selalu membuat saya terkagun dengan design yang di tawarkan, dia juga adalah pribadi yang riang sehingga menjadi power up untuk team saat team sedang tidak baik baik saja.'
         }
     ]
     return(

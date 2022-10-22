@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './components/Navbar'
 import Sidenav from './components/Sidenav'
 import './styles/App.scss'
 import About from './views/About'
@@ -11,6 +12,7 @@ const App = () => {
   return (
     <div>
       <Sidenav/>
+      <Navbar/>
       <Home/>
       <About/>
       <Work/>
