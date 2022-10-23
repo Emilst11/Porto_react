@@ -45,7 +45,6 @@
         &-hvs{
             box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
             width: 210mm;
-            padding: 0 20px;
             margin: auto;
             .heads-file{
                 display: flex;
@@ -105,6 +104,15 @@
                         margin: 0 auto;
                     }
                 }
+            }
+        }
+        @media screen and (max-width : 768px) {
+            &{
+                grid-template-columns: 1fr;
+                justify-items: flex-start;
+                max-width: 768px;
+                overflow: scroll;
+                padding: 20px;
             }
         }
     }
