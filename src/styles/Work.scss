@@ -110,7 +110,7 @@
                     filter: drop-shadow(0px 8px 25px rgba(0, 0, 0, 0.25)) brightness(80%);
                 }
             }
-            @media screen and (max-width : 600px){
+            @media screen and (max-width : 768px){
                 &{
                     button{
                         display: none;
@@ -140,7 +140,7 @@
                 }
             }
         }
-        @media screen and (max-width : 600px){
+        @media screen and (max-width : 768px){
             .banners{
                 left: -20%;
                 font-size: 5rem;
@@ -154,7 +154,7 @@
         transform: translateY(30%);
         text-align: center;
     }
-    @media screen and (max-width : 600px){
+    @media screen and (max-width : 768px){
         &{
             background-size: 100%;
             padding: 0;

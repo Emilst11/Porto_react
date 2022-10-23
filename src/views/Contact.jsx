@@ -2,6 +2,7 @@ import React from "react";
 import { GoLocation } from 'react-icons/go'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
+import { Link } from "react-router-dom";
 import '../styles/Contact.scss'
 
 const Contact = () => {
@@ -31,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-item">
                     <h2>Download my CV/Resume here</h2>
-                    <button>Click Here</button>
+                    <Link className="button" to='/resume'>Click Here</Link>
                 </div>
             </div>
             <div className="presenting">

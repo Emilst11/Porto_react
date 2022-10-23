@@ -21,8 +21,11 @@
             color: #fff;
         }
     }
+    button{
+        display: none;
+    }
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 768px) {
     .navbar-container{
         flex-flow: column;
         text-align: center;

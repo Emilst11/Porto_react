@@ -7,23 +7,23 @@ const Navbar = () => {
     const navContent = [
         {
             title: 'Home',
-            link: 'home'
+            link: '#'
         },
         {
             title: 'About',
-            link: 'about'
+            link: '#about'
         },
         {
             title: 'My Work',
-            link: 'work'
+            link: '#work'
         },
         {
             title: 'Testimonial',
-            link: 'testi'
+            link: '#testi'
         },
         {
             title: 'Contact',
-            link: 'contact'
+            link: '#contact'
         }
     ]
     return(
@@ -31,7 +31,7 @@ const Navbar = () => {
             <button onClick={() => setOpen(!open)}><HiMenu/> {open ? 'Close' : 'Menu'}</button>
             <div className={`${open ? 'mobile-item' : 'navbar-container-item'}`}>
                 {navContent.map((item, index) => 
-                    <a href={`#${item.link}`} key={index} onClick={() => setOpen(!open)} >{item.title}</a>
+                    <a href={item.link} key={index} onClick={() => setOpen(false)} >{item.title}</a>
                 )}
             </div>
         </div>

@@ -55,11 +55,11 @@
             }
             h2{
                 font-size: 1.5rem;
-                margin: 0 0 1rem;
+                margin: 0 0 20px;
                 font-weight: 400;
                 font-family: Roboto Condensed;
             }
-            button{
+            .button{
                 background: none;
                 color: #fff;
                 padding: 1rem 20px;
@@ -68,6 +68,7 @@
                 border: 1px solid #fff;
                 cursor: pointer;
                 transition: .3s;
+                text-decoration: none;
                 &:hover{
                     background-color: #C5B99C;
                     color: #252525;
@@ -87,7 +88,7 @@
             font-size: 1.3rem;
         }
     }
-    @media screen and (max-width : 600px) {
+    @media screen and (max-width : 768px) {
         &{
             background-size: cover;
             &-container{

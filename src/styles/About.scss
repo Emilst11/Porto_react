@@ -103,14 +103,14 @@
         width: 100%;
         transform: translateY(-70%);
     }
-    @media screen and (max-width : 600px) {
+    @media screen and (max-width : 768px) {
         &{
             .banners{
                 font-size: 5rem;
                 transform: translateY(400px);
             }
             .text{
-                grid-template-columns: 300px;
+                grid-template-columns: 1fr;
                 justify-items: center;
                 img{
                     width: 300px;

@@ -1,0 +1,111 @@
+.resume{
+    padding-bottom: 50px;
+    background: url('../assets/bg-resume.png') no-repeat;
+    background-position: 80% 100%;
+    .navbar-head{
+        max-width: 1440px;
+        margin: auto;
+        padding: 30px 0;
+        &-item{
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+    .container-pdf{
+        max-width: 1440px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        align-content: flex-start;
+        .btn-container{
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            .btn-download{
+                background: none;
+                color: #fff;
+                border: 1px solid #FFFFFF;
+                border-radius: 10px;
+                padding: 1rem 2rem;
+                font-size: 1.3rem;
+                cursor: pointer;
+                transition: .3s;
+                &:hover{
+                    background: #252525;
+                    border: 1px solid #252525;
+                    color: #FFFFFF;
+                    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+        &-hvs{
+            box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+            width: 210mm;
+            padding: 0 20px;
+            margin: auto;
+            .heads-file{
+                display: flex;
+                justify-content: space-between;
+            }
+            .hvs{
+                width: 210mm;
+                margin: auto;
+                color: #252525;
+                background-color: #fff;
+                text-align: center;
+                h2{
+                    text-align: center;
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                    margin: 0 0 1rem;
+                }
+                h3{
+                    text-align: left;
+                }
+                p{
+                    text-align: justify;
+                    font-size: 1.1rem;
+                }
+                .header{
+                    text-align: center;
+                    padding: 20px;
+                    width: 85%;
+                    margin: 0 auto;
+                    border-bottom: 5px solid #252525;
+                    h1{
+                        margin: 1rem 0 10px;
+                    }
+                    p{
+                        margin: 0;
+                        text-align: center;
+                    }
+                }
+                .body{
+                    .summary, .experience, .education{
+                        padding: 20px;
+                        width: 85%;
+                        margin: 0 auto;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #252525;
+                        ul{
+                            li{
+                                font-size: 1.1rem;
+                                text-align: justify;
+                                margin-bottom: 1rem;
+                            }
+                        }
+                    }
+                    .certificate{
+                        padding: 20px;
+                        width: 85%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

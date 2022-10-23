@@ -12,9 +12,9 @@ const About = () => {
             <div className="about-container">
                 <div className="svg">
                     <svg width="301" height="143" viewBox="0 0 301 143" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line x1="300" y1="1" x2="300" y2="98" stroke="#5D5C5B" stroke-width="2" stroke-linecap="round"/>
-                        <line x1="1" y1="98" x2="298" y2="98" stroke="#5D5C5B" stroke-width="2" stroke-linecap="round"/>
-                        <line x1="1" y1="100" x2="1" y2="142" stroke="#5D5C5B" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="300" y1="1" x2="300" y2="98" stroke="#5D5C5B" strokeWidth="2" strokeLinecap="round"/>
+                        <line x1="1" y1="98" x2="298" y2="98" stroke="#5D5C5B" strokeWidth="2" strokeLinecap="round"/>
+                        <line x1="1" y1="100" x2="1" y2="142" stroke="#5D5C5B" strokeWidth="2" strokeLinecap="round"/>
                     </svg>
                 </div>
                 <div className="text">
@@ -58,7 +58,7 @@ const About = () => {
             </div>
             <div className="svgs-bot">
                 <svg width="100%" height="20%" viewBox="0 0 1920 252" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.109269 143.602C0.109269 143.602 323.313 3.87388 542.109 1.60214C841.019 -1.50142 968.377 228.255 1266.61 248.602C1524.37 266.188 1920.11 145.602 1920.11 145.602" stroke="white" stroke-opacity="0.27" stroke-width="2"/>
+                    <path d="M0.109269 143.602C0.109269 143.602 323.313 3.87388 542.109 1.60214C841.019 -1.50142 968.377 228.255 1266.61 248.602C1524.37 266.188 1920.11 145.602 1920.11 145.602" stroke="white" strokeOpacity="0.27" strokeWidth="2"/>
                 </svg>
             </div>
         </div>

@@ -69,7 +69,7 @@
         }
     }
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 768px) {
     .home{
         .tags{
             width: calc(600px / 4);
@@ -82,7 +82,9 @@
         .socmed{
             justify-content: center;
             transform: translate(0, 150px);
-            left: 0;
+            left: 50%;
+            transform: translate(-50%, 100px);
+            z-index: 1001;
         }
     }
 }
