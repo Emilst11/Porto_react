@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Porto_react/static/css/main.f5669eaa.css",
-    "main.js": "/Porto_react/static/js/main.f8acb016.js",
+    "main.js": "/Porto_react/static/js/main.4c52be76.js",
     "static/js/236.6b3215d1.chunk.js": "/Porto_react/static/js/236.6b3215d1.chunk.js",
     "static/js/703.5daeab41.chunk.js": "/Porto_react/static/js/703.5daeab41.chunk.js",
     "static/js/55.a3fa3afd.chunk.js": "/Porto_react/static/js/55.a3fa3afd.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/bg-testi.png": "/Porto_react/static/media/bg-testi.4a7c7f473c36a1787afd.png",
     "index.html": "/Porto_react/index.html",
     "main.f5669eaa.css.map": "/Porto_react/static/css/main.f5669eaa.css.map",
-    "main.f8acb016.js.map": "/Porto_react/static/js/main.f8acb016.js.map",
+    "main.4c52be76.js.map": "/Porto_react/static/js/main.4c52be76.js.map",
     "236.6b3215d1.chunk.js.map": "/Porto_react/static/js/236.6b3215d1.chunk.js.map",
     "703.5daeab41.chunk.js.map": "/Porto_react/static/js/703.5daeab41.chunk.js.map",
     "55.a3fa3afd.chunk.js.map": "/Porto_react/static/js/55.a3fa3afd.chunk.js.map",
@@ -25,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.f5669eaa.css",
-    "static/js/main.f8acb016.js"
+    "static/js/main.4c52be76.js"
   ]
 }
