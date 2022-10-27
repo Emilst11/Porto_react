@@ -31,7 +31,7 @@ const Resume = () => {
     return(
         <div className="resume">
             <div className="navbar-head">
-                <Link className="navbar-head-item">
+                <Link className="navbar-head-item" to='/'>
                     <IoMdArrowBack/>
                     <span>
                         Back to Home

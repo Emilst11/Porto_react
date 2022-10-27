@@ -26,7 +26,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="contact-item">
-                    <a href="#home" className="navs">Home</a>
+                    <a href="#" className="navs">Home</a>
                     <a href="#about" className="navs">About</a>
                     <a href="#work" className="navs">Work</a>
                 </div>
