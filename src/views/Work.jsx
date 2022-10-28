@@ -13,21 +13,21 @@ const Work = () => {
             images: porto1,
             title: 'Internship program',
             tech: 'HTML/CSS/JS',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime voluptatum totam numquam voluptate, culpa non enim corrupti error sit voluptatibus cupiditate provident odio ab illum praesentium alias nesciunt? Quam?'
+            desc: 'Magang di BPKP ini, saya membuat aplikasi berbasis website bernama Bsmart, yang mana saya memiliki peran terhadap desain website dari figma, kemudian mengimplementasikannya kedalam bentuk HTML/CSS/JS sehingga bisa diintegrasikan oleh backend'
         },
         {
             id: 2,
             images: porto2,
             title: 'Textplag',
             tech: 'React.js SCSS REDUX',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime voluptatum totam numquam voluptate, culpa non enim corrupti error sit voluptatibus cupiditate provident odio ab illum praesentium alias nesciunt? Quam?'
+            desc: 'Textplag merupakan aplikasi berbasis website yang saya buat untuk menyelesaikan studi S1 Teknik Informatika saya, Textplag sendiri merupakan aplikasi pengecekan plagiarisme pada laporan kerja magang mahasiswa dan akan menghitung presentase kemiripannya dengan aplikasi lainnya'
         },
         {
             id: 3,
             images: porto3,
             title: 'CSS Template Library',
             tech: 'HTML/CSS/JS',
-            desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni maxime voluptatum totam numquam voluptate, culpa non enim corrupti error sit voluptatibus cupiditate provident odio ab illum praesentium alias nesciunt? Quam?'
+            desc: 'Template library untuk membantu rekan saya dalam memperindah aplikasi berbasis websitenya, dan karena dia merupakan seorang yang tidak handal dalam mengaplikasikan desain wireframing kedalam HTML/CSS. Sehingga saya buatkan HTML/CSS struktural yang mudah dimengerti oleh seorang backend sekalipun untuk mengimplementasikannya'
         }
     ]
 
